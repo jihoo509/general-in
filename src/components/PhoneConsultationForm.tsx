@@ -8,7 +8,7 @@ interface PhoneConsultationFormProps {
   title?: string;
 }
 
-// const SITE_ID = import.meta.env.VITE_SITE_ID ?? 'teeth'; // 이 줄은 더 이상 사용하지 않습니다.
+// const SITE_ID = import.meta.env.VITE_SITE_ID ?? '손해보험'; // 이 줄은 더 이상 사용하지 않습니다.
 
 export function PhoneConsultationForm({ title }: PhoneConsultationFormProps) {
   const [formData, setFormData] = useState({
